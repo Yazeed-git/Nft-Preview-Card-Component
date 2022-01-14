@@ -89,7 +89,12 @@ body{
     font-size: 1.6rem;
     font-weight: var(--semibold);
     margin-bottom: .5em;
+    cursor: pointer;
     transition: color .2s ease-in-out;
+}
+
+.card__title:hover{
+    color: var(--cyan);
 }
 
 .card__subtitle{
